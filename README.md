@@ -1,4 +1,4 @@
------------------------------ IMPORTANTE ---------------------------------------- 
+------------------ IMPORTANTE -------------------
 LINK TO BACKEND: https://github.com/EmaBia00/Capstone-ticketvision-project-BE.git
 
 Introduzione al progetto: TicketVision - Piattaforma di Prenotazione Cinema
