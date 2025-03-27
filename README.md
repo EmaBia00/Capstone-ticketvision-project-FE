@@ -1,4 +1,7 @@
+Info: Ho ricreato le repository sia Frontend che Backend in modo da avere dei messaggi nei commit più dettagliati ed organizzati, perchè inizialmente il progetto era troppo confusionario.
+
 Leggere in versione CODE
+
 ------------------ IMPORTANTE -------------------
 LINK TO BACKEND: https://github.com/EmaBia00/Capstone-ticketvision-project-BE.git
 
