@@ -1,3 +1,4 @@
+Leggere in versione CODE
 ------------------ IMPORTANTE -------------------
 LINK TO BACKEND: https://github.com/EmaBia00/Capstone-ticketvision-project-BE.git
 
