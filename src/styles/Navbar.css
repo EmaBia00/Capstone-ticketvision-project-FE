@@ -1,0 +1,150 @@
+.navbar-custom {
+    transition: all 0.3s ease;
+    padding: 0.8rem 0;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-scrolled {
+    background-color: rgba(33, 37, 41, 0.95) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    padding: 0.5rem 0;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+}
+
+.brand-text {
+    font-size: 1.4rem;
+    background: linear-gradient(to right, #fff, #aaa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-link-custom {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    margin: 0 0.2rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.nav-link-custom:hover,
+.nav-link-custom:focus {
+    color: #fff !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link-custom.active {
+    color: #fff !important;
+    font-weight: 600;
+    background-color: rgba(13, 110, 253, 0.2);
+}
+
+.user-dropdown::after {
+    display: none !important;
+}
+
+.dropdown-menu-custom {
+    background-color: rgba(33, 37, 41, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.dropdown-header {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+}
+
+.dropdown-item-custom {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0.5rem 1.25rem;
+    transition: all 0.2s ease;
+}
+
+.dropdown-item-custom:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logout-item {
+    color: rgba(220, 53, 69, 0.8) !important;
+}
+
+.logout-item:hover {
+    color: #fff !important;
+    background-color: rgba(220, 53, 69, 0.2) !important;
+}
+
+.admin-link {
+    color: rgba(255, 193, 7, 0.9) !important;
+}
+
+.admin-link:hover {
+    color: #ffc107 !important;
+}
+
+.login-link {
+    color: rgba(13, 110, 253, 0.9) !important;
+}
+
+.login-link:hover {
+    color: #0d6efd !important;
+}
+
+.register-link {
+    color: rgba(25, 135, 84, 0.9) !important;
+}
+
+.register-link:hover {
+    color: #198754 !important;
+}
+
+.navbar-custom {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 0;
+}
+
+.user-avatar {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.user-name {
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.navbar-toggle-custom {
+    border: none;
+    padding: 0.5rem;
+}
+
+.navbar-toggle-custom:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+    .navbar-custom {
+        background-color: rgba(33, 37, 41, 0.98) !important;
+    }
+
+    .nav-link-custom {
+        margin: 0.2rem 0;
+        padding: 0.75rem 1rem !important;
+    }
+
+    .dropdown-menu-custom {
+        background-color: rgba(52, 58, 64, 0.98);
+        margin-left: 1rem;
+        width: calc(100% - 2rem);
+    }
+}
