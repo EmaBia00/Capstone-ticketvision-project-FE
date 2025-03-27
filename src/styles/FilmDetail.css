@@ -1,0 +1,161 @@
+/* Pagina dettaglio film */
+.film-detail-page {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.film-header {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.poster-card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.film-poster {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.film-title {
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.film-meta .badge {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
+    margin-bottom: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.synopsis-section h4,
+.cast-section h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.film-synopsis {
+    line-height: 1.8;
+    color: #495057;
+}
+
+.film-cast {
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Stili per la sezione spettacoli */
+.screenings-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.screenings-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1.2rem 1.5rem;
+    border-bottom: none;
+}
+
+.screening-item {
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    transition: background-color 0.2s ease;
+}
+
+.screening-item:hover {
+    background-color: #f8f9fa;
+}
+
+.screening-time h5 {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.screening-cinema h6 {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.booking-button {
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.booking-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+    .film-header {
+        padding: 1rem;
+    }
+
+    .screening-item {
+        padding: 1rem;
+    }
+
+    .screening-time,
+    .screening-cinema,
+    .screening-room {
+        margin-bottom: 1rem;
+    }
+
+    .booking-button {
+        width: 100%;
+    }
+}
+
+/* Stili per l'alert di autenticazione */
+.auth-alert {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1050;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-left: 5px solid #ffc107;
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+
+    to {
+        top: 80px;
+        opacity: 1;
+    }
+}
+
+.auth-alert .btn-link {
+    color: #0d6efd;
+    text-decoration: underline;
+    padding: 0 0.25rem;
+}
+
+.auth-alert .btn-link:hover {
+    color: #0a58ca;
+}
